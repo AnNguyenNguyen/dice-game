@@ -1,0 +1,67 @@
+@type-face {
+  font-family:Futura;
+  src: url('fonts/Futura.ttc');
+
+  font-family:Ubuntu;
+  src: url('fonts/Ubuntu-Bold.ttf');
+  src: url('fonts/Ubuntu-BoldItalic.ttf');
+  src: url('fonts/Ubuntu-BoldItalic.ttf');
+  src: url('fonts/Ubuntu-Light.ttf');
+  src: url('fonts/Ubuntu-LightItalic.ttf');
+  src: url('fonts/Ubuntu-Medium.ttf');
+  src: url('fonts/Ubuntu-MediumItalic.ttf');
+  src: url('fonts/Ubuntu-Regular.ttf');
+}
+
+
+body{
+  background-color: rgb(235, 150, 158);
+  text-align: center;
+}
+
+h1{
+  font-family: 'Ubuntu', helvetica, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+
+.dice{
+  width: 10em;
+  height: 10em;
+  border: 0.25em solid black;
+  border-radius: 1em;
+  margin: auto;
+}
+
+.msg{}
+
+button{
+  border: none;
+  background: rgb(39, 111, 235);
+
+
+
+}
+.btn {
+    font-family: 'Ubuntu', helvetica, sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    padding: 1.1em;
+    border: 0px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: rgb(238, 44, 85);
+    transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: rgb(19, 162, 82);
+}
